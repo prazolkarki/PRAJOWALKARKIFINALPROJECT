@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+
+<body>
+    <style>
+        .th_head {
+            border: 1px solid black;
+        }
+    </style>
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="name" id="name"></td>
+        </tr>
+
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email" id="email"></td>
+        </tr>
+
+        <tr>
+            <td>Address:</td>
+            <td><textarea name="address" id="address" cols="" rows=""></textarea></td>
+        </tr>
+
+        <tr>
+            <td>Postcode:</td>
+            <td><input type="text" name="pcode" id="pcode"></td>
+        </tr>
+
+    </table><br>
+    <table style="border: 1px solid black;">
+        <tr>
+            <th style="border: 1px solid black;width: 5cm;">Product</th>
+            <th class="th_head">Part Name</th>
+            <th class="th_head">Quantity</th>
+            <th class="th_head">Unit Price</th>
+            <th style="border: 1px solid black;width: 5cm;">Subtotal</th>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">EconoBox</td>
+            <td style="border: 1px solid black;">LB100</td>
+            <td style="border: 1px solid black;"> </td>
+            <td style="border: 1px solid black;">R5</td>
+            <td style="border: 1px solid black;">R</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">Standard Box</td>
+            <td style="border: 1px solid black;">LB200</td>
+            <td style="border: 1px solid black;"> </td>
+            <td style="border: 1px solid black;">R10</td>
+            <td style="border: 1px solid black;">R</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">Premium Box</td>
+            <td style="border: 1px solid black;">LB300</td>
+            <td style="border: 1px solid black;"> </td>
+            <td style="border: 1px solid black;">R15</td>
+            <td style="border: 1px solid black;">R</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">Deluxe Box</td>
+            <td style="border: 1px solid black;">LB400</td>
+            <td style="border: 1px solid black;"> </td>
+            <td style="border: 1px solid black;">R20</td>
+            <td style="border: 1px solid black;">R</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">Super Deluxe Box</td>
+            <td style="border: 1px solid black;">LB500</td>
+            <td style="border: 1px solid black;"> </td>
+            <td style="border: 1px solid black;">R30</td>
+            <td style="border: 1px solid black;">R</td>
+        </tr>
+        <tr>
+            <td colspan="4" align="right" style="border: 1px solid black;">Total:</td>
+            <td align="left" style="border: 1px solid black;">R</td>
+        </tr>
+    </table><br>
+    <table>
+        <tr>
+            <th>Credit Card Details</th>
+            <th> </th>
+            <th> </th>
+        </tr>
+        <tr>
+            <td>Credit type:</td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" name="ctype" id="mcard" value="Mastercard">
+                <label for="mcard">Mastercard</label>
+            </td>
+            <td>Card Number:</td>
+            <td><input type="text" name="cnumber" id="cnumber"></td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="radio" name="ctype" id="visa" value="Visa">
+                <label for="visa">Visa</label>
+            </td>
+            <td>Expiry Date:</td>
+            <td><input type="month" name="expdate" id="expdate"></td>
+        </tr>
+
+        <tr>
+            <td><input type="radio" name="ctype" id="aexpress" value="American Express">
+                <label for="aexpress">American Express</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" name="ctype" id="dclub" value="Diners Clubn">
+                <label for="dclub">Diners Club</label>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <th>Delivery Address:</th>
+        <th><textarea name="daddress" id="daddress" cols="" rows=""></textarea></th>
+    </table>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Clear Form">
+
+
+</body>
+
+</html>

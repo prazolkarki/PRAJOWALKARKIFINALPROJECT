@@ -1,0 +1,59 @@
+
+h1{
+    padding: 10px;
+    font-size:50px;
+    border: 10px solid red;
+    color:red;
+    text-align: center;
+    font-family: "Comic Sans Ms";
+    background-color: whitesmoke;
+    
+}
+p{
+    font-family: "Comic Sans Ms";
+}
+
+h2{
+    color:red;
+    font-family: "Comic Sans Ms";
+    background-color: bisque;
+    
+
+}
+
+nav a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+nav a:hover{
+    color: red;
+    border: 2px solid red;
+}
+
+footer{
+    color: rebeccapurple;
+    text-align: center;
+    padding:5px;
+    font-size:20px;
+}
+
+img{
+    border: 5px solid red;
+    float:right;height:250px;width:300px;
+}
+
+table,tr,th,td{
+    font-family: "Comic Sans Ms";
+    color: red;
+    background-color: blanchedalmond;
+    border:3px solid red;
+    font-size: 15px;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+
+
+    

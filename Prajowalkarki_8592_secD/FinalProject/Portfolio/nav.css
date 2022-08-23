@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.homepage{
+    background:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(bg.jpg);
+    background-size: auto;
+    padding: 40px;
+    height: 100vh;
+    
+}
+.welcome{
+    margin:0 20px 20px 20px;
+    padding: 40px;
+}
+.welcome h1{
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    border: #fff solid 2px;
+    padding: 10px;
+}
+.name{
+    margin: auto;
+    border: #fff solid 2px;
+    padding: 10px;
+    width: 50%;
+}
+.name p{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.navbar{
+    border: 2px solid #fff;
+    margin: 20px 400px;
+}
+.navbar li{
+    list-style: none;
+    padding: 20px;
+    font-size: xx-large;
+    text-align: center;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar li a:hover{
+    color: #2980b9;
+
+}
+/* NOTES */
+.notepage{
+    background:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(bg.jpg);
+    background-size: auto;
+    padding: 40px;
+    height: 100vh;
+    
+}
+.notes{
+    margin:0 20px 20px 20px;
+    padding: 40px;
+}
+.notes h1{
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    border: #fff solid 2px;
+    padding: 10px;
+}
+
+.noteslink li{
+    list-style: none;
+    padding: 20px;
+    font-size: 40PX;
+    text-align: center;
+    float: left;
+    }
+.noteslink li a{
+    text-decoration: none;
+    color: #fff;
+    text-decoration: underline;
+
+}
+.noteslink li a:hover{
+    color: #2980b9;
+
+}
